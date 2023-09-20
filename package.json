@@ -1,0 +1,13 @@
+{
+    "name" : "alpha-vis",
+    "version": "0.0.1",
+    "description": "Servidor local",
+    "main":"Servidor.js",
+    "scripts": {
+        "postrestart": "node servidor.js"
+    },
+    "dependencies": {
+         "node-static":"^0.7.11"
+    }
+
+}
